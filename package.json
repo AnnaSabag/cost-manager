@@ -1,0 +1,27 @@
+{
+  "name": "cost-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "users.server.js",
+  "scripts": {
+    "users": "node users.server.js",
+    "costs": "node costs.server.js",
+    "logs": "node logs.server.js",
+    "about": "node about.server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "axios": "^1.16.1",
+    "jest": "^30.4.2"
+  }
+}

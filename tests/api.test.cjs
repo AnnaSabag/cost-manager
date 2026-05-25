@@ -1,10 +1,11 @@
 const axios = require('axios');
 
 // Base URLs for the four separate service processes.
-const usersServiceUrl = 'http://localhost:3001';
-const costsServiceUrl = 'http://localhost:3002';
-const logsServiceUrl = 'http://localhost:3003';
-const aboutServiceUrl = 'http://localhost:3004';
+const usersServiceUrl = 'https://cost-manager-users-20ur.onrender.com';
+const costsServiceUrl = 'https://cost-manager-costs-kvsi.onrender.com';
+const logsServiceUrl = 'https://cost-manager-logs-5j8w.onrender.com';
+const aboutServiceUrl = 'https://cost-manager-about-6b5d.onrender.com';
+
 
 describe('Cost Manager API Tests', () => {
   // ==================================================

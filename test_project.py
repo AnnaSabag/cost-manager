@@ -4,16 +4,16 @@ import sys
 filename = input("filename=")
 
 # Logs service
-a = "http://localhost:3003"
+a = "https://cost-manager-logs-5j8w.onrender.com"
 
 # Users service
-b = "http://localhost:3001"
+b = "https://cost-manager-users-20ur.onrender.com"
 
 # Costs service
-c = "http://localhost:3002"
+c = "https://cost-manager-costs-kvsi.onrender.com"
 
 # About service
-d = "http://localhost:3004"
+d = "https://cost-manager-about-6b5d.onrender.com"
 
 output = open(filename, "w", encoding="utf-8")
 sys.stdout = output

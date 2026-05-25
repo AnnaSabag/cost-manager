@@ -42,7 +42,7 @@ app.get('/api/about', (req, res) => {
       },
       {
         first_name: 'Aviv',
-        last_name: 'Haviv'
+        last_name: 'Mizrahi'
       }
     ];
 
